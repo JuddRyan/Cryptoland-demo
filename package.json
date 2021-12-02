@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx mix",
-    "watch": "npx mix watch"
+    "start": "npx mix watch",
+    "hot": "npx mix watch --hot",
+    "build": "npx mix --production"
   },
   "keywords": [],
   "author": "",
